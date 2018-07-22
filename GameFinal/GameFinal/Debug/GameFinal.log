@@ -1,0 +1,36 @@
+﻿Build started 21-07-18 09:13:31.
+     1>Project "D:\DATA BaoDoan\Project\Game\Game\GameFinal\GameFinal\GameFinal.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /AI"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GSound.cpp GTexture.cpp Object.cpp
+         Object.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\sweet_aabb.h(20): warning C4091: 'extern ' : ignored on left of 'Box' when no variable is declared
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\object.h(48): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\object.cpp(21): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\object.cpp(22): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\object.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\object.cpp(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\object.cpp(116): error C2039: 'Create' : is not a member of 'Weapon'
+                 d:\data baodoan\project\game\game\gamefinal\gamefinal\weapon.h(9) : see declaration of 'Weapon'
+         GTexture.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.cpp(80): error C2014: preprocessor command must start as first nonwhite space
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.cpp(83): error C2084: function 'GTexture::GTexture(char *,int,int,int)' already has a body
+                 d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.h(21) : see previous definition of '{ctor}'
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.cpp(92): error C2084: function 'GTexture::GTexture(const GTexture &)' already has a body
+                 d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.h(20) : see previous definition of '{ctor}'
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.cpp(104): error C2084: function 'GTexture::~GTexture(void)' already has a body
+                 d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.h(22) : see previous definition of '{dtor}'
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.cpp(110): error C2084: function 'void GTexture::Draw(int,int)' already has a body
+                 d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.h(24) : see previous definition of 'Draw'
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.cpp(116): error C2084: function 'void GTexture::Load(void)' already has a body
+                 d:\data baodoan\project\game\game\gamefinal\gamefinal\gtexture.h(27) : see previous definition of 'Load'
+         GSound.cpp
+     1>d:\data baodoan\project\game\game\gamefinal\gamefinal\gsound.cpp(18): error C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_vsnprintf'
+         Generating Code...
+     1>Done Building Project "D:\DATA BaoDoan\Project\Game\Game\GameFinal\GameFinal\GameFinal.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.66
